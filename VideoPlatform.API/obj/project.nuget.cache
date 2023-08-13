@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OGCyiVYyjTzj/PQ9QEqooI6/xvJrnmk3ydsSDXKNr3+HTzMKWUCMilftr1zASHmGofBL62e9fbFjTeYT0R6wdA==",
+  "success": true,
+  "projectFilePath": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/VideoPlatform.API.csproj",
+  "expectedPackageFiles": [
+    "/home/xuananle/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.21/microsoft.netcore.app.host.linux-x64.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}

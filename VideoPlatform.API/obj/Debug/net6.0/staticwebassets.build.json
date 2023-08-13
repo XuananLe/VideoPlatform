@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yIh1r7S4XjL7YBlqF1eB/wrTRl7Fw7aB+XD6PWFeYuA=",
+  "Source": "VideoPlatform.API",
+  "BasePath": "_content/VideoPlatform.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
