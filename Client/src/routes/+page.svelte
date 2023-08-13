@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import { onMount } from "svelte";
+    import { goto } from "$app/navigation";
+
+    onMount(() => {
+        let res = fetch("http://localhost:5299/api/Home")
+        .then((res) => res.json())
+        .then((res) => {
+            console.log(res['message']);
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+    });
+</script>
+

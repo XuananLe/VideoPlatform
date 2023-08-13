@@ -6,8 +6,9 @@ namespace VideoPlatform.API.Controllers;
 public class Home : ControllerBase
 {
     [HttpGet]   
-    public String Index()
+    public IActionResult Index()
     {
-        return "Hello World From Controller!";
+        var data = new { Message = "Hello World" };
+        return new JsonResult(data);
     }
 }
