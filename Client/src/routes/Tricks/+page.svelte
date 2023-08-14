@@ -1,25 +1,18 @@
-<script lang = ts>
-	let files;
-
-	$: if (files) {
-		// https://developer.mozilla.org/en-US/docs/Web/API/FileList
-		console.log(files);
-
-		for (const file of files) {
-			console.log(`${file.name}: ${file.size} bytes`);
-		}
-	}
+<script>
+	import { uploadVideo } from './uploadVideos';
+	let selectedFile = null;
 </script>
 
-<label for="avatar">Upload a picture:</label>
-<input accept="image/png, image/jpeg" bind:files id="avatar" name="avatar" type="file" />
+<main>
+	<h1>Upload Video</h1>
+	<input type="file" accept="video/*" bind:files={selectedFile} />
+	<button on:click={uploadVideo}>Upload</button>
+</main>
 
-<label for="many">Upload multiple files of any type:</label>
-<input bind:files id="many" multiple type="file" />
-
-{#if files}
-	<h2>Selected files:</h2>
-	{#each Array.from(files) as file}
-		<p>{file.name} ({file.size} bytes)</p>
-	{/each}
-{/if}
+<style>
+	main {
+		max-width: 600px;
+		margin: 0 auto;
+		padding: 2rem;
+	}
+</style>

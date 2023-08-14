@@ -4,7 +4,7 @@ namespace VideoPlatform.API.Controllers;
 [Route("api/videos")]
 public class VideosController : ControllerBase
 {
-    [HttpPost]
+    [HttpPost] // POST /api/videos
     public IActionResult UploadVideo(IFormFile video)
     {
         
