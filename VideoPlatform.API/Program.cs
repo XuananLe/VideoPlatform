@@ -1,3 +1,5 @@
+using VideoPlatform.API;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddCors((options) =>
@@ -7,6 +9,8 @@ builder.Services.AddCors((options) =>
         policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
     });    
 });
+builder.Services.AddSingleton<TrickyStore>();
+
 
 
 var app = builder.Build();
