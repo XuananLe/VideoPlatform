@@ -3,7 +3,7 @@
     import { goto } from "$app/navigation";
 
     onMount(() => {
-        let res = fetch("http://localhost:5299/api/Home")
+        fetch("http://localhost:5299/api/Home")
         .then((res) => res.json())
         .then((res) => {
             console.log(res['message']);
