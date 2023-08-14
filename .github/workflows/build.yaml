@@ -11,11 +11,11 @@ jobs:
         run: pwd
       - uses: actions/checkout@v2
         
+      - uses: actions/checkout@v3
       - uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 6.x
-          cache: true
-      - run : dotnet build
+          dotnet-version: '6.0.x'
+      - run: dotnet build
         
         
       - uses: actions/setup-node@v1
