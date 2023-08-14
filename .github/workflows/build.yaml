@@ -15,6 +15,7 @@ jobs:
         with:
           dotnet-version: 6.x
           cache: true
+      - run : dotnet build
         
         
       - uses: actions/setup-node@v1
