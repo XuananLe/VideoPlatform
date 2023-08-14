@@ -4,7 +4,7 @@ using VideoPlatform.API.Models;
 namespace VideoPlatform.API.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/Tricks")]
 public class TricksController : ControllerBase
 {
     private readonly TrickyStore _trickyStore;

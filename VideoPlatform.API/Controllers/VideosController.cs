@@ -1,13 +1,26 @@
 using Microsoft.AspNetCore.Mvc;
 
 namespace VideoPlatform.API.Controllers;
-[Route("api/videos")]
+[Route("api/Videos")]
 public class VideosController : ControllerBase
 {
-    [HttpPost] // POST /api/videos
-    public IActionResult UploadVideo(IFormFile video)
+    [HttpGet]
+    public IActionResult Index()
     {
-        
-        return Ok();
+        return Ok("Hello World");
+    }
+    
+    
+    [HttpPost("/Upload")] // POST /api/Videos/Upload
+    public IActionResult Create()
+    {
+        return Ok("Video uploaded successfully");
+        // return Ok("Video uploaded successfully");
+        // if (video is { Length: > 0 })
+        // {
+        //     return Ok("Video uploaded successfully");
+        // }
+
+        //return BadRequest("No video file uploaded");
     }
 }

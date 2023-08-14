@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "OGCyiVYyjTzj/PQ9QEqooI6/xvJrnmk3ydsSDXKNr3+HTzMKWUCMilftr1zASHmGofBL62e9fbFjTeYT0R6wdA==",
+  "dgSpecHash": "s+/MvlqFEG20PhK4C6/JbbaJkFdGKEEuiKhDcQyPY8iqjHf3y+AlmsCsIyfmIzseQkOJw6gdI9Wl7clD391lKA==",
   "success": true,
   "projectFilePath": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/VideoPlatform.API.csproj",
   "expectedPackageFiles": [
+    "/home/xuananle/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "/home/xuananle/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.21/microsoft.netcore.app.host.linux-x64.6.0.21.nupkg.sha512"
   ],
   "logs": []

@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace VideoPlatform.API.Controllers;
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/Home")]
 public class HomeController : ControllerBase
 {
     [HttpGet]   

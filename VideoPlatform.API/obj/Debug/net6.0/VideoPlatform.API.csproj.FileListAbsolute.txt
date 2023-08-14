@@ -24,3 +24,9 @@
 /home/xuananle/Documents/VideoPlatform/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.pdb
 /home/xuananle/Documents/VideoPlatform/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.genruntimeconfig.cache
 /home/xuananle/Documents/VideoPlatform/VideoPlatform.API/obj/Debug/net6.0/ref/VideoPlatform.API.dll
+/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.MvcApplicationPartsAssemblyInfo.cs
+/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.csproj.CopyComplete
