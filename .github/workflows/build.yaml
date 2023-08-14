@@ -10,6 +10,14 @@ jobs:
       - name: "Print Current Directory"
         run: pwd
       - uses: actions/checkout@v2
+        
+      - uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 6.x
+          cache: true
+      - run: dotnet restore --locked-mode
+        
+        
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
@@ -20,3 +28,5 @@ jobs:
         
       - name : Check node
         run: node --version
+        
+
