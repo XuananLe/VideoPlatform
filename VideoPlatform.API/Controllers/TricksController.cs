@@ -5,11 +5,11 @@ namespace VideoPlatform.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class Tricks : ControllerBase
+public class TricksController : ControllerBase
 {
     private readonly TrickyStore _trickyStore;
 
-    public Tricks(TrickyStore trickyStore)
+    public TricksController(TrickyStore trickyStore)
     {
         _trickyStore = trickyStore;
     }

@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace VideoPlatform.API.Controllers;
 [ApiController]
 [Route("api/[controller]")]
-public class Home : ControllerBase
+public class HomeController : ControllerBase
 {
     [HttpGet]   
     public IActionResult Index()
