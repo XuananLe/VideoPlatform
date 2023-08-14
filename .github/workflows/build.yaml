@@ -14,3 +14,9 @@ jobs:
         with:
           node-version: '12.x'
       - run: npm install
+      
+      - name : Check dotnet 
+        run: dotnet --version
+        
+      - name : Check node
+        run: node --version
