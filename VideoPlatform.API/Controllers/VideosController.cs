@@ -11,8 +11,8 @@ public class VideosController : ControllerBase
     }
     
     
-    [HttpPost("/Upload")] // POST /api/Videos/Upload
-    public IActionResult Create()
+    [HttpPost("Upload")] // POST /api/Videos/Upload
+    public IActionResult Create([FromBody] object video)
     {
         return Ok("Video uploaded successfully");
         // return Ok("Video uploaded successfully");

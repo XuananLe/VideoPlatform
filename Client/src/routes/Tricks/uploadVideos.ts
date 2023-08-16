@@ -1,12 +1,9 @@
-export async function uploadVideo(selectedFile: File) {
-    if (selectedFile) {
-        const formData = new FormData();
-        formData.append("video", selectedFile);
-
+export async function uploadVideo(selectedFile: any) {
+    console.log("Uploading video...");
+    if (true) {
         try {
-            const response = await fetch("http://localhost:5299/api/videos", {
+            let response = await fetch("http://localhost:5299/Upload", {
                 method: "POST",
-                body: formData,
             });
 
             if (response.ok) {
