@@ -1,4 +1,4 @@
-using VideoPlatform.API.Models;
+using VideoPlatform.Models;
 
 namespace VideoPlatform.API;
 
