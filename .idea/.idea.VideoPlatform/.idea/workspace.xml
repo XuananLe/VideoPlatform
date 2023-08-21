@@ -8,19 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b43de2-b4e9-48f6-b31c-3309ba0386b6" name="Changes" comment="&quot;Updating small things&quot;">
-      <change afterPath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/KXrqF12b6UuUau_gP1poGg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/O0bnEWTmqkKc7WBzT4sQZA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/a4L1XyDwTEYj4PpItCYug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/gpX22P6ze0ysc6zdfp02yg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/hsR899uFQEeuh7EEouJ6Zw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/zQrzMkZegUihdlkTdVzYew.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VideoPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VideoPlatform/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoPlatform.API/Controllers/VideosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/Controllers/VideosController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/Service/GuidService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/Service/GuidService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/1HjBzD_dukmRTKLfNDln1g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/LAG-4i3INkSxmlXgWkJ78Q.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/NrmdYzDYFkGD8vuQo6wEKw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/sMf95kgYxk2RS8bAbxHmRA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/bin/Debug/net6.0/VideoPlatform.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/bin/Debug/net6.0/VideoPlatform.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/bin/Debug/net6.0/VideoPlatform.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/bin/Debug/net6.0/VideoPlatform.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/ref/VideoPlatform.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/ref/VideoPlatform.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/refint/VideoPlatform.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/refint/VideoPlatform.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +125,7 @@
       <workItem from="1692191177159" duration="1647000" />
       <workItem from="1692269528955" duration="67000" />
       <workItem from="1692585994931" duration="414000" />
-      <workItem from="1692590286988" duration="6529000" />
+      <workItem from="1692590286988" duration="7701000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Updating small things&quot;">
       <created>1691985593406</created>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Na6AhpEs+LItz3FENYLRYzZEMfKMiE8azxMZr+KG1fc=",
+  "Hash": "gXEyGXl3TNUgfdUTEVt6yJIr5VYp+GEFZdFU+6tGFOA=",
   "Source": "VideoPlatform.API",
   "BasePath": "_content/VideoPlatform.API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/1HjBzD_dukmRTKLfNDln1g.png",
+      "Identity": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/a4L1XyDwTEYj4PpItCYug.png",
       "SourceId": "VideoPlatform.API",
       "SourceType": "Discovered",
       "ContentRoot": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/",
       "BasePath": "_content/VideoPlatform.API",
-      "RelativePath": "1HjBzD_dukmRTKLfNDln1g.png",
+      "RelativePath": "a4L1XyDwTEYj4PpItCYug.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/1HjBzD_dukmRTKLfNDln1g.png"
+      "OriginalItemSpec": "wwwroot/a4L1XyDwTEYj4PpItCYug.png"
     },
     {
-      "Identity": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/LAG-4i3INkSxmlXgWkJ78Q.png",
+      "Identity": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/gpX22P6ze0ysc6zdfp02yg.png",
       "SourceId": "VideoPlatform.API",
       "SourceType": "Discovered",
       "ContentRoot": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/",
       "BasePath": "_content/VideoPlatform.API",
-      "RelativePath": "LAG-4i3INkSxmlXgWkJ78Q.png",
+      "RelativePath": "gpX22P6ze0ysc6zdfp02yg.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,15 +48,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/LAG-4i3INkSxmlXgWkJ78Q.png"
+      "OriginalItemSpec": "wwwroot/gpX22P6ze0ysc6zdfp02yg.png"
     },
     {
-      "Identity": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/NrmdYzDYFkGD8vuQo6wEKw.png",
+      "Identity": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/hsR899uFQEeuh7EEouJ6Zw.png",
       "SourceId": "VideoPlatform.API",
       "SourceType": "Discovered",
       "ContentRoot": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/",
       "BasePath": "_content/VideoPlatform.API",
-      "RelativePath": "NrmdYzDYFkGD8vuQo6wEKw.png",
+      "RelativePath": "hsR899uFQEeuh7EEouJ6Zw.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/NrmdYzDYFkGD8vuQo6wEKw.png"
+      "OriginalItemSpec": "wwwroot/hsR899uFQEeuh7EEouJ6Zw.png"
     },
     {
-      "Identity": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/sMf95kgYxk2RS8bAbxHmRA.png",
+      "Identity": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/KXrqF12b6UuUau_gP1poGg.png",
       "SourceId": "VideoPlatform.API",
       "SourceType": "Discovered",
       "ContentRoot": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/",
       "BasePath": "_content/VideoPlatform.API",
-      "RelativePath": "sMf95kgYxk2RS8bAbxHmRA.png",
+      "RelativePath": "KXrqF12b6UuUau_gP1poGg.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/sMf95kgYxk2RS8bAbxHmRA.png"
+      "OriginalItemSpec": "wwwroot/KXrqF12b6UuUau_gP1poGg.png"
+    },
+    {
+      "Identity": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/O0bnEWTmqkKc7WBzT4sQZA.png",
+      "SourceId": "VideoPlatform.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/",
+      "BasePath": "_content/VideoPlatform.API",
+      "RelativePath": "O0bnEWTmqkKc7WBzT4sQZA.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/O0bnEWTmqkKc7WBzT4sQZA.png"
+    },
+    {
+      "Identity": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/zQrzMkZegUihdlkTdVzYew.png",
+      "SourceId": "VideoPlatform.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/",
+      "BasePath": "_content/VideoPlatform.API",
+      "RelativePath": "zQrzMkZegUihdlkTdVzYew.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/zQrzMkZegUihdlkTdVzYew.png"
     }
   ]
 }

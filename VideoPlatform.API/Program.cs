@@ -32,4 +32,9 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllers();
 });
 app.UseCors(MyAllowSpecificOrigins);
+app.MapGet("/", context =>
+{
+    return context.Response.WriteAsync("Welcome to the API!");
+});
+
 app.Run();

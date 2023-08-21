@@ -17,15 +17,11 @@ public class VideosController : ControllerBase
     [HttpGet]
     public IActionResult Index()
     {
-        return Ok("Hello World");
-    }
-
-    [HttpGet("All")]
-    public IActionResult All()
-    {
+        // LINQ
         var files = Directory.GetFiles("wwwroot/").Select(file => file.Replace("wwwroot/", "")).ToArray();
         return Ok(files);
     }
+    
 
 
     [HttpGet("{video}")]
@@ -57,6 +53,7 @@ public class VideosController : ControllerBase
 
         var filename = GuidService.generateShortGUID() + "." + mime;
         var savedPath = Path.Combine(_env.WebRootPath, filename);
+        
         using (var fileStream = new FileStream(savedPath, FileMode.Create, FileAccess.Write))
         {
             await video.CopyToAsync(fileStream);
