@@ -7,6 +7,10 @@
     <explicitIncludes>
       <Path>Client</Path>
     </explicitIncludes>
-    <explicitExcludes />
+    <explicitExcludes>
+      <Path>VideoPlatform.API/obj</Path>
+      <Path>VideoPlatform.Data/obj</Path>
+      <Path>VideoPlatform.Models/obj</Path>
+    </explicitExcludes>
   </component>
 </project>
