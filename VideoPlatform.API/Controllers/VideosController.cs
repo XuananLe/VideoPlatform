@@ -20,6 +20,14 @@ public class VideosController : ControllerBase
         return Ok("Hello World");
     }
 
+    [HttpGet("All")]
+    public IActionResult All()
+    {
+        var files = Directory.GetFiles("wwwroot/").Select(file => file.Replace("wwwroot/", "")).ToArray();
+        return Ok(files);
+    }
+
+
     [HttpGet("{video}")]
     public IActionResult Get(string video)
     {
@@ -44,13 +52,14 @@ public class VideosController : ControllerBase
         {
             return BadRequest("File is null");
         }
+
         var mime = video.FileName.Split('.').Last();
-        
+
         var filename = GuidService.generateShortGUID() + "." + mime;
         var savedPath = Path.Combine(_env.WebRootPath, filename);
         using (var fileStream = new FileStream(savedPath, FileMode.Create, FileAccess.Write))
         {
-           await video.CopyToAsync(fileStream);
+            await video.CopyToAsync(fileStream);
         }
 
         return Ok("File uploaded successfully");

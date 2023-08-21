@@ -6,7 +6,7 @@ public class GuidService
     {
         Guid guid = Guid.NewGuid();
         string shortGuid = Convert.ToBase64String(guid.ToByteArray());
-        shortGuid = shortGuid.Replace("/", "_").Replace("+", "-").TrimEnd('=');
+        shortGuid = shortGuid.Replace("/", "_").Replace("+", "-").Replace("-", "").TrimEnd('=');
         return shortGuid;
     }
 }
