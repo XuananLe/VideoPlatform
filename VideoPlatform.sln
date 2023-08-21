@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoPlatform.API", "VideoPlatform.API\VideoPlatform.API.csproj", "{F6992326-1D53-495A-B5A9-E8CC0CDFDB9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoPlatform.Data", "VideoPlatform.Data\VideoPlatform.Data.csproj", "{25DF1EBF-F6BB-43B5-BF25-0DC24B9B4AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoPlatform.Model", "VideoPlatform.Model\VideoPlatform.Model.csproj", "{BC16C4F6-E36E-4BC5-BED3-2E30D141B96E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{F6992326-1D53-495A-B5A9-E8CC0CDFDB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6992326-1D53-495A-B5A9-E8CC0CDFDB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6992326-1D53-495A-B5A9-E8CC0CDFDB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25DF1EBF-F6BB-43B5-BF25-0DC24B9B4AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25DF1EBF-F6BB-43B5-BF25-0DC24B9B4AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25DF1EBF-F6BB-43B5-BF25-0DC24B9B4AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25DF1EBF-F6BB-43B5-BF25-0DC24B9B4AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC16C4F6-E36E-4BC5-BED3-2E30D141B96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC16C4F6-E36E-4BC5-BED3-2E30D141B96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC16C4F6-E36E-4BC5-BED3-2E30D141B96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC16C4F6-E36E-4BC5-BED3-2E30D141B96E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

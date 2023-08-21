@@ -32,6 +32,10 @@ public class VideosController : ControllerBase
             return BadRequest("File is null");
         }
 
+        if (!video.Contains(".mp4"))
+        {
+            video += ".mp4";
+        }
         var filePath = Path.Combine(_env.WebRootPath, video);
         if (!System.IO.File.Exists(filePath))
         {
@@ -84,7 +88,7 @@ public class VideosController : ControllerBase
             var savedPath = Path.Combine(_env.WebRootPath, filename);
 
             await using var fileStream = new FileStream(savedPath, FileMode.Create, FileAccess.Write);
-            await video.CopyToAsync(fileStream);
+            await video.CopyToAsync(fileStream); 
         }
 
         return Ok("All file uploaded successfully.");
