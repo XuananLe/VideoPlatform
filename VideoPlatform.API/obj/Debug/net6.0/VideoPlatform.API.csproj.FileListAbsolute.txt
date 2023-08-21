@@ -30,3 +30,4 @@
 /home/xuananle/Documents/VideoPlatform/VideoPlatform.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/xuananle/Documents/VideoPlatform/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.MvcApplicationPartsAssemblyInfo.cs
 /home/xuananle/Documents/VideoPlatform/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.csproj.CopyComplete
+/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/bin/Debug/net6.0/VideoPlatform.API.staticwebassets.runtime.json

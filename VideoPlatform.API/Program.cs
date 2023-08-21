@@ -19,17 +19,20 @@ builder.Services.AddSingleton<TrickyStore>();
 
 
 var app = builder.Build();
+app.UseCors(MyAllowSpecificOrigins);
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseRouting(); 
 app.UseCors(MyAllowSpecificOrigins);
+app.UseRouting(); 
 
 app.MapControllers();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
 });
+app.UseCors(MyAllowSpecificOrigins);
+
 app.Run();

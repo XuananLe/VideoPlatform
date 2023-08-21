@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "yIh1r7S4XjL7YBlqF1eB/wrTRl7Fw7aB+XD6PWFeYuA=",
+  "Hash": "hNfV3g72qRZK7MBS4DMp3xfqfHdbfofdYS7KFjtxoto=",
   "Source": "VideoPlatform.API",
   "BasePath": "_content/VideoPlatform.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "VideoPlatform.API/wwwroot",
+      "Source": "VideoPlatform.API",
+      "ContentRoot": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.API/wwwroot/",
+      "BasePath": "_content/VideoPlatform.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
