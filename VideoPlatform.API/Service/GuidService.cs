@@ -1,6 +1,6 @@
 namespace VideoPlatform.API.Service;
 
-public class ShortGuid
+public class GuidService
 {
     public static String generateShortGUID()
     {

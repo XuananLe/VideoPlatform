@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using VideoPlatform.API.Service;
 
 namespace VideoPlatform.API.Controllers;
@@ -37,7 +38,7 @@ public class VideosController : ControllerBase
     }
 
     [HttpPost("Upload")] // POST /api/Videos/Upload
-    public IActionResult Create(IFormFile video)
+    public async Task<IActionResult> Create(IFormFile video)
     {
         if (video == null)
         {
@@ -45,11 +46,11 @@ public class VideosController : ControllerBase
         }
         var mime = video.FileName.Split('.').Last();
         
-        var filename = ShortGuid.generateShortGUID() + "." + mime;
+        var filename = GuidService.generateShortGUID() + "." + mime;
         var savedPath = Path.Combine(_env.WebRootPath, filename);
         using (var fileStream = new FileStream(savedPath, FileMode.Create, FileAccess.Write))
         {
-            video.CopyToAsync(fileStream);
+           await video.CopyToAsync(fileStream);
         }
 
         return Ok("File uploaded successfully");
