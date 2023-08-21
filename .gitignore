@@ -1,3 +1,7 @@
 VideoPlatform.API/bin
 VideoPlatform.API/obj
 .idea
+VideoPlatform.Data/obj
+VideoPlatform.Data/bin
+VideoPlatform.Models/obj
+VideoPlatform.Models/bin

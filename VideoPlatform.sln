@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoPlatform.API", "VideoP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoPlatform.Data", "VideoPlatform.Data\VideoPlatform.Data.csproj", "{25DF1EBF-F6BB-43B5-BF25-0DC24B9B4AD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoPlatform.Model", "VideoPlatform.Model\VideoPlatform.Model.csproj", "{BC16C4F6-E36E-4BC5-BED3-2E30D141B96E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoPlatform.Models", "VideoPlatform.Models\VideoPlatform.Models.csproj", "{C29666B8-2C0D-4B0D-945B-0F28B962166E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +20,9 @@ Global
 		{25DF1EBF-F6BB-43B5-BF25-0DC24B9B4AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25DF1EBF-F6BB-43B5-BF25-0DC24B9B4AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25DF1EBF-F6BB-43B5-BF25-0DC24B9B4AD9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC16C4F6-E36E-4BC5-BED3-2E30D141B96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC16C4F6-E36E-4BC5-BED3-2E30D141B96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC16C4F6-E36E-4BC5-BED3-2E30D141B96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC16C4F6-E36E-4BC5-BED3-2E30D141B96E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29666B8-2C0D-4B0D-945B-0F28B962166E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29666B8-2C0D-4B0D-945B-0F28B962166E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29666B8-2C0D-4B0D-945B-0F28B962166E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29666B8-2C0D-4B0D-945B-0F28B962166E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
