@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "0w4fW1FGhI9yCP9s7tOTwG3OMWa66ScN1sVb/0uPWiy0uHz4/1HcaKlWspDXo2Mp3J6RPf2z3bwf5XVOnRlRCQ==",
+  "dgSpecHash": "ZFg7/DgsF77+Wa2SUiopMBojO6RihjTAelLHZlWoWUrQHTAQKggAbpr9attGGF8Rx/Mj2XdFASwNL509jKy6JA==",
   "success": true,
   "projectFilePath": "/home/xuananle/Documents/VideoPlatform/VideoPlatform.Data/VideoPlatform.Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/xuananle/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.10/microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.10/microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.10/microsoft.entityframeworkcore.inmemory.7.0.10.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/home/xuananle/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

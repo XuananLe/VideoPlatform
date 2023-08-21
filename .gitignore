@@ -12,3 +12,4 @@ VideoPlatform.Models/obj
 VideoPlatform.Models/bin
 VideoPlatform.Models/obj/*
 VideoPlatform.Models/bin/*
+*.xml

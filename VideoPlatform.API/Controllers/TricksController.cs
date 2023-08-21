@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using VideoPlatform.Data;
 using VideoPlatform.Models;
 
 namespace VideoPlatform.API.Controllers;
@@ -7,54 +9,74 @@ namespace VideoPlatform.API.Controllers;
 [Route("api/Tricks")]
 public class TricksController : ControllerBase
 {
-    private readonly TrickyStore _trickyStore;
 
-    public TricksController(TrickyStore trickyStore)
+    private readonly AppDbContext AppDbContext;
+    public TricksController(AppDbContext AppDbContext)
     {
-        _trickyStore = trickyStore;
+        this.AppDbContext = AppDbContext;
     }
 
     [HttpGet] // GET /api/Tricks
     public IActionResult All()
     {
-        return Ok(_trickyStore.All);
+        return Ok(AppDbContext.Tricks.ToList());
     }
 
     [HttpGet("{id}")] // GET /api/Tricks/1
     public IActionResult Get(int id)
     {
-        return Ok(_trickyStore.All.FirstOrDefault(x => x.Id.Equals(id)));
+        return Ok(AppDbContext.Tricks.FirstOrDefault(x => x.Id.Equals(id)));
     }
 
     [HttpPost] // POST /api/Tricks
-    public IActionResult Create([FromBody] Trick trick)
+    public async  Task<IActionResult> Create([FromBody] Trick trick)
     {
-        _trickyStore.AddTrick(trick);
-        return Ok();
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        if (AppDbContext.Tricks.FirstOrDefault(x => x.Name == trick.Name) == null)
+        {
+            AppDbContext.Tricks.Add(trick);
+            await AppDbContext.SaveChangesAsync();
+            return Ok("Trick created.");
+        }
+
+        return Ok("Trick already exists.");
     }
 
     [HttpPut]
-    public IActionResult Update([FromBody] Trick trick)
+    public async Task<IActionResult> Update([FromBody] Trick trick)
     {
-        var trickToUpdate = _trickyStore.All.FirstOrDefault(x => x.Id.Equals(trick.Id));
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        var trickToUpdate = AppDbContext.Tricks.FirstOrDefault(x => x.Id.Equals(trick.Id));
         if (trickToUpdate == null)
         {
             return NotFound();
         }
         trickToUpdate.Name = trick.Name;
+        await AppDbContext.SaveChangesAsync();
         return Ok();
     }
 
 
     [HttpDelete("{id}")] // DELETE /api/Tricks/1
-    public IActionResult Delete(int id)
+    public async Task<IActionResult> Delete(int id)
     {
-        var trick = _trickyStore.All.FirstOrDefault(x => x.Id.Equals(id));
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        var trick = AppDbContext.Tricks.FirstOrDefault(x => x.Id.Equals(id));
         if (trick == null)
         {
             return NotFound();
         }
-        _trickyStore.All.ToList().Remove(trick);
+        AppDbContext.Tricks.Remove(trick);
+        await AppDbContext.SaveChangesAsync();
         return Ok();
     }
     

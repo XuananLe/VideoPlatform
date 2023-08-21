@@ -14,15 +14,17 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
       <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Models\" />
       <Folder Include="wwwroot\" />
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\VideoPlatform.Data\VideoPlatform.Data.csproj" />
       <ProjectReference Include="..\VideoPlatform.Models\VideoPlatform.Models.csproj" />
     </ItemGroup>
 

@@ -9,8 +9,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b43de2-b4e9-48f6-b31c-3309ba0386b6" name="Changes" comment="&quot;Updating small things&quot;">
+      <change afterPath="$PROJECT_DIR$/VideoPlatform.Data/AppDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VideoPlatform.Models/Submission.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/Lmao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VideoPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VideoPlatform/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/VideoPlatform.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/VideoPlatform.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/VideoPlatform.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/VideoPlatform.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Data/VideoPlatform.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Data/VideoPlatform.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Data/obj/VideoPlatform.Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Data/obj/VideoPlatform.Data.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Data/obj/VideoPlatform.Data.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Data/obj/VideoPlatform.Data.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Data/obj/VideoPlatform.Data.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Data/obj/VideoPlatform.Data.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Data/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Data/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Data/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Data/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Data/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/Trick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Models/Trick.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/VideoPlatform.Models.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Models/VideoPlatform.Models.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/VideoPlatform.Models.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Models/obj/VideoPlatform.Models.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Models/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Models/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Models/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.Models/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +53,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/b4779f12bc4a4b099bb523704e61b0ef3200/c7/e3c69ea3/02000006pdb5High.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/268c3826027c4eb9b2e23d9e2045897c1cc600/a2/f91b9d30/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/268c3826027c4eb9b2e23d9e2045897c1cc600/dc/f75bc025/FileStreamResult.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81972a0a6a214796bec91683ff950abb6e200/63/b5ae2574/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c4eeb20393ee4a56be7a0bc691c863a8c000/09/f583e218/IFormFileCollection.cs" root0="SKIP_HIGHLIGHTING" />
@@ -41,7 +65,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d6a40205276141bfb5fa1eb016057b8c5e00/ab/20984dfe/IWebHostEnvironment.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e03671d5d85c46dbb7969d9a12a05b6c12200/b7/4984bfef/ServiceCollectionServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Client/package-lock.json" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VideoPlatform/Class1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,29 +82,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/home/xuananle/Documents/VideoPlatform/Client/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/xuananle/Documents/VideoPlatform/Client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/home/xuananle/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/home/xuananle/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/home/xuananle/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/xuananle/.config/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/home/xuananle/.config/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/home/xuananle/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.VideoPlatform.API">
     <configuration name="rest-api_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -137,7 +160,10 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -162,7 +188,8 @@
       <workItem from="1692590286988" duration="8031000" />
       <workItem from="1692617696844" duration="1621000" />
       <workItem from="1692628583973" duration="69000" />
-      <workItem from="1692629665038" duration="3296000" />
+      <workItem from="1692629665038" duration="3956000" />
+      <workItem from="1692634097119" duration="1023000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Updating small things&quot;">
       <created>1691985593406</created>

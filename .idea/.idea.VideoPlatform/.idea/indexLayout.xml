@@ -8,6 +8,7 @@
       <Path>Client</Path>
     </explicitIncludes>
     <explicitExcludes>
+      <Path>VideoPlatform.API/Properties</Path>
       <Path>VideoPlatform.API/obj</Path>
       <Path>VideoPlatform.Data/obj</Path>
       <Path>VideoPlatform.Models/obj</Path>

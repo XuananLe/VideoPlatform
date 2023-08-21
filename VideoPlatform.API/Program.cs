@@ -1,8 +1,15 @@
+using Microsoft.EntityFrameworkCore;
 using VideoPlatform.API;
+using VideoPlatform.Data;
+
 // Configure CORS
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseInMemoryDatabase("Tricks.db");
+});
 
 builder.Services.AddCors(options =>
 {
@@ -14,9 +21,6 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddSwaggerGen();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSingleton<TrickyStore>();
-
-
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
