@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using VideoPlatform.API.Service;
 
 namespace VideoPlatform.API.Controllers;
 
@@ -18,6 +19,22 @@ public class VideosController : ControllerBase
         return Ok("Hello World");
     }
 
+    [HttpGet("{video}")]
+    public IActionResult Get(string video)
+    {
+        if (video == null)
+        {
+            return BadRequest("File is null");
+        }
+
+        var filePath = Path.Combine(_env.WebRootPath, video);
+        if (!System.IO.File.Exists(filePath))
+        {
+            return NotFound(video + " not found");
+        }
+
+        return new FileStreamResult(System.IO.File.OpenRead(filePath), "image/png");
+    }
 
     [HttpPost("Upload")] // POST /api/Videos/Upload
     public IActionResult Create(IFormFile video)
@@ -27,7 +44,8 @@ public class VideosController : ControllerBase
             return BadRequest("File is null");
         }
         var mime = video.FileName.Split('.').Last();
-        var filename = string.Concat(Path.GetRandomFileName(), ".", mime);
+        
+        var filename = ShortGuid.generateShortGUID() + "." + mime;
         var savedPath = Path.Combine(_env.WebRootPath, filename);
         using (var fileStream = new FileStream(savedPath, FileMode.Create, FileAccess.Write))
         {

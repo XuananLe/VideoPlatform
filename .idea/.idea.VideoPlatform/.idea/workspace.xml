@@ -8,17 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b43de2-b4e9-48f6-b31c-3309ba0386b6" name="Changes" comment="&quot;Updating small things&quot;">
+      <change afterPath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/a990d6ce-2626-49de-be7e-c374f8af93a2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VideoPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VideoPlatform/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/routes/Tricks/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/routes/Tricks/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/routes/Tricks/uploadVideos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/routes/Tricks/uploadVideos.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoPlatform.API/Controllers/VideosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/Controllers/VideosController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoPlatform.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoPlatform.API/bin/Debug/net6.0/VideoPlatform.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/bin/Debug/net6.0/VideoPlatform.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoPlatform.API/bin/Debug/net6.0/VideoPlatform.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/bin/Debug/net6.0/VideoPlatform.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/VideoPlatform.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/ref/VideoPlatform.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/ref/VideoPlatform.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/refint/VideoPlatform.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/obj/Debug/net6.0/refint/VideoPlatform.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/lv2sexna.qtn.png" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlatform.API/wwwroot/023a2d00-58ef-4df6-8d1c-0155ff10b36f.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +38,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d6212728fbdc49c098b2e05c7df21521950c00/6c/ebf2d02a/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/484917e236e092d5ce76c5f373993d21fb07a86c2912aaaec5db139b77ac48/SwaggerGenServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/b4779f12bc4a4b099bb523704e61b0ef3200/c7/e3c69ea3/02000006pdb5High.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/268c3826027c4eb9b2e23d9e2045897c1cc600/dc/f75bc025/FileStreamResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81972a0a6a214796bec91683ff950abb6e200/63/b5ae2574/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cc572a0b1ad1410f8a796bd1733816cc32c00/dd/7ca5204b/MediaTypeHeaderValue.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d6212728fbdc49c098b2e05c7df21521950c00/99/0cc00149/Path.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d6212728fbdc49c098b2e05c7df21521950c00/a0/562e5ec2/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d6212728fbdc49c098b2e05c7df21521950c00/c3/b0acaadd/File.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d6212728fbdc49c098b2e05c7df21521950c00/ec/0764d86b/FileStream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d6a40205276141bfb5fa1eb016057b8c5e00/ab/20984dfe/IWebHostEnvironment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e03671d5d85c46dbb7969d9a12a05b6c12200/b7/4984bfef/ServiceCollectionServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Client/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -115,7 +124,10 @@
       <updated>1691977166819</updated>
       <workItem from="1691977167582" duration="14009000" />
       <workItem from="1692187058858" duration="1494000" />
-      <workItem from="1692191177159" duration="1049000" />
+      <workItem from="1692191177159" duration="1647000" />
+      <workItem from="1692269528955" duration="67000" />
+      <workItem from="1692585994931" duration="414000" />
+      <workItem from="1692590286988" duration="5045000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Updating small things&quot;">
       <created>1691985593406</created>
@@ -146,6 +158,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;Updating small things&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;Updating small things&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet Exception Breakpoints">
+          <properties exception="System.IO.DirectoryNotFoundException" isInternal="false" displayValue="DirectoryNotFoundException" namespaceName="System.IO">
+            <option name="internal" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
