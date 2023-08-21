@@ -8,29 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96b43de2-b4e9-48f6-b31c-3309ba0386b6" name="Changes" comment="&quot;Updating small things&quot;">
-      <change afterPath="$PROJECT_DIR$/VideoPlatform.Model/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/VideoPlatform.Models.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/Debug/net6.0/VideoPlatform.Models.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/Debug/net6.0/VideoPlatform.Models.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/Debug/net6.0/VideoPlatform.Models.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/Debug/net6.0/VideoPlatform.Models.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/Debug/net6.0/VideoPlatform.Models.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/Debug/net6.0/VideoPlatform.Models.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/VideoPlatform.Models.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/VideoPlatform.Models.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/VideoPlatform.Models.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlatform.Models/obj/rider.project.restore.info" beforeDir="false" />
-    </list>
+    <list default="true" id="96b43de2-b4e9-48f6-b31c-3309ba0386b6" name="Changes" comment="&quot;Updating small things&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +159,7 @@
       <workItem from="1692590286988" duration="8031000" />
       <workItem from="1692617696844" duration="1621000" />
       <workItem from="1692628583973" duration="69000" />
-      <workItem from="1692629665038" duration="2620000" />
+      <workItem from="1692629665038" duration="3037000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Updating small things&quot;">
       <created>1691985593406</created>
