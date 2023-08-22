@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/VideoPlatform.API.props" />
-</Project>
