@@ -17,7 +17,7 @@ public class TricksController : ControllerBase
     }
 
     [HttpGet] // GET /api/Tricks
-    public IActionResult All()
+    public IActionResult GetAll()
     {
         return Ok(AppDbContext.Tricks.ToList());
     }
@@ -73,7 +73,7 @@ public class TricksController : ControllerBase
         var trick = AppDbContext.Tricks.FirstOrDefault(x => x.Id.Equals(id));
         if (trick == null)
         {
-            return NotFound();
+            return NotFound($"Trick with {id} not found.");
         }
         AppDbContext.Tricks.Remove(trick);
         await AppDbContext.SaveChangesAsync();
